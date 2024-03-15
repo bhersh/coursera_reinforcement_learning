@@ -23,3 +23,17 @@ Agent
 
 * First Exercise "Frozen Lake"
 
+=====
+Markov Chains
+actions affect all future rewards
+Markov Decison Process
+-- each state is based solely on the previous state & action
+MPD
+MPD underlies the theory of reinforcement learning
+
+p(s',r| a,s) != 1
+this defines the dynamics
+
+For continuous tasks, use a decay on the rewards to keep the sum of all rewards is bounded.
+use gamma to power step index. gamma^k
+The Policy : f: state -> action
