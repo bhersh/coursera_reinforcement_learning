@@ -1,0 +1,25 @@
+fundamental concepts
+* agent
+* environment
+* rewards
+
+agent interacts with environment.
+agent receives rewards for peforming a correct behavior
+
+environment
+* what changes when the agent acts
+** in the example, environment are the boxes and the rewards
+
+State
+* set of all possible states -> "state space"
+
+Agent
+* software
+* memory of states, actions, rewards
+* does not need to be on the hardware
+* uses algorithm to inmprove performance
+* all possible actions -> "action space"
+** Q Learning wants discrete actions
+
+* First Exercise "Frozen Lake"
+
